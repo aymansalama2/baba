@@ -1,7 +1,7 @@
 /* src/App.css */
 
 body {
-  background-image: url('2.jpg'); /* Remplacez 'chemin/vers/votre/image.jpg' par le chemin réel de votre image */
+  background-image: url('/image/2.jpg'); /* Remplacez 'chemin/vers/votre/image.jpg' par le chemin réel de votre image */
   background-size: cover; /* Pour s'assurer que l'image couvre toute la surface */
   background-position: center; /* Pour centrer l'image */
   background-repeat: no-repeat; /* Pour éviter la répétition de l'image */

@@ -28,7 +28,7 @@ function App() {
         <h1 className="text-gold">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</h1>
         <br />
         <video ref={videoRef} className="w-100 max-width-800 mb-4" controls>
-          <source src="1.mp4" type="video/mp4" />
+          <source src="videos/2.mp4" type="video/mp4" />
         </video>
         <p className="text-success">Répétitions restantes : {72 - repetitionCount}</p>
       </header>
