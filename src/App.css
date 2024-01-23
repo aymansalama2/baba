@@ -1,0 +1,50 @@
+/* src/App.css */
+
+body {
+  background-image: url('2.jpg'); /* Remplacez 'chemin/vers/votre/image.jpg' par le chemin réel de votre image */
+  background-size: cover; /* Pour s'assurer que l'image couvre toute la surface */
+  background-position: center; /* Pour centrer l'image */
+  background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
+  font-family: 'Arial', sans-serif; /* Choisissez une police lisible */
+  /* Autres styles pour le corps de la page */
+}
+
+
+/* .App-header {
+  background-color: #28a745; 
+  color: #fff; 
+  padding: 20px;
+} */
+
+h1 {
+  color: #000000; /* Or */
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+video {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+p {
+  /* color: #28a745;  */
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.islamic-footer {
+  /* background-color: #28a745; */
+  color: #fff; /* Blanc */
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
