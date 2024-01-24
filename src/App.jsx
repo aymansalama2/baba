@@ -30,6 +30,9 @@ function App() {
         <video ref={videoRef} className="w-100 max-width-800 mb-4" controls>
           <source src="2.mp4" type="video/mp4" />
         </video>
+        <video ref={videoRef} className="w-100 max-width-800 mb-4" controls>
+          <source src="3.mp4" type="video/mp4" />
+        </video>
         <p className="text-success">Répétitions restantes : {72 - repetitionCount}</p>
       </header>
       <div className="text-dark ">
